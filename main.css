@@ -1,0 +1,121 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body > header {
+    background-color: rgb(41, 41, 41);
+    padding: 16px 0;
+    color: azure;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+    
+}
+
+header li a {
+    color: azure;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    }
+
+    .articles article a {
+        background-color: blue;
+        color: #fff;
+        padding: 8px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+
+    .articles article a:hover {
+        text-decoration: underline
+    }
+    
+
+    .articles article p, .articles article a {
+        font-family: Arial, Helvetica, sans-serif 
+    }
+
+    .articles article h3 {
+        font-size: 24px;
+    }
+
+    section h2 {
+        font-size: 32px;
+    }
+
+    #sports {
+        background-color: rgb(174, 239, 255);
+    }
+
+    #sports .articles article a {
+        background-color: rgba(0, 1, 71, 0.753);
+    }
+
+    #economy{
+        background-color: rgb(183, 231, 195);
+    }
+
+    #economy .articles article a{
+        background-color: rgb(2, 114, 30);
+    }
+
+    #ciencia{
+        background-color: rgb(215, 229, 255);
+    }
+
+    #ciencia .articles article a{
+        background-color: rgb(89, 120, 255);
+    }
+
+    #filmes{
+        background-color: rgb(247, 246, 206);
+    }
+
+    #filmes .articles article a{
+        background-color: rgb(255, 106, 6);
+    }
